@@ -1,0 +1,32 @@
+{
+    "name": "erp",
+    "version": "1.0.0",
+    "description": "Teste b9 sistemas",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec sucrase-node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VictorGomesB/erp.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VictorGomesB/erp/issues"
+    },
+    "homepage": "https://github.com/VictorGomesB/erp#readme",
+    "dependencies": {
+        "@prisma/client": "^3.6.0",
+        "body-parser": "^1.19.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "prisma": "^3.6.0",
+        "sucrase": "^3.20.3"
+    }
+}
